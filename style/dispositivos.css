@@ -1,0 +1,94 @@
+@media (max-width: 895px) {
+    .cabecera__lista--remove {
+        display: none;
+    }
+    .biografia__titulo, .sobremi__titulo, .hablidades__titulo, .hobbi__titulo, .formacion__titulo, .proyecto__titulo__home {
+        font-size: 3rem;
+    }
+    .container__user {
+        min-width: 300px;
+    }
+    .sobremi__container {
+        width: 90%;
+    }
+    .contacto__container__img {
+        display: none;
+    }
+    .contacto__container__formulario {
+        width: 100%;
+    }
+    .contactos {
+        padding: 0;
+    }
+    .contacto__container__formulario {
+        margin-left: 0;
+    }
+}
+@media (max-width: 777px) {
+    .biografia__titulo {
+        font-size: 2.8rem;
+    }
+    .biografia__info {
+        font-size: 1.8rem;
+    }
+    .image__user {
+        width: 240px;
+    }
+    .container__user {
+        min-width: 250px;
+    }
+    .biografia  {
+        height: 50vh;
+    }
+    .sobremi__titulo, .hablidades__titulo, .hobbi__titulo, .formacion__titulo, .proyecto__titulo__home {
+        font-size: 2.8rem;
+    }
+
+}
+
+@media (max-width: 683px) {
+    .biografia {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        height: auto;
+        padding: 20px 0;
+    }
+    .biografia__container {
+        width: 100%;
+    }
+    .proyecto__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .proyecto__img__container {
+        width: 100%;
+    }
+
+    .proyecto__container--right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container__user {
+        height: 260px;
+    }
+
+    .sobremi__container {
+        width: 100%;
+    }
+    .habilidad, .hobbi {
+        width: 250px;
+    }
+    .proyecto__nombre {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .biografia__navegacion {
+        gap:15px
+    }
+    .biografia__lista {
+        width: 130px;
+    }
+}

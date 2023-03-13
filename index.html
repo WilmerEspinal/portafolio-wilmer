@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="./icons/icons8-portafolio-47.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41e86e3762.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/dispositivos.css">
+
+    <title>portafolio</title>
+</head>
+<body >
+    <header class="cabecera">
+        <nav class="cabecera__menu">
+            <h2><a class="cabecera__logo" href="#inicio">Wilmer</a></h2>
+            <ul class="cabecera__navegacion">
+                <li class="cabecera__lista cabecera__lista--remove"><a class="cabecera__link" href="#sobremi">Sobre mi</a></li>
+                <li class="cabecera__lista cabecera__lista--remove"><a class="cabecera__link" href="#skills">Skills</a></li>
+                <li class="cabecera__lista cabecera__lista--remove"><a class="cabecera__link" href="#Hobbies">Hobbies</a></li>
+                <li class="cabecera__lista cabecera__lista--remove"><a class="cabecera__link" href="#formacion">Formación</a></li>
+                <li class="cabecera__lista cabecera__lista--remove"><a class="cabecera__link" href="#proyectos">Proyectos</a></li>
+
+                <li class="cabecera__lista"><a class="cabecera__link--correo" href="mailto:wilmerespinalvillanueva27@gamail.com">wilmer@gmail.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="inicio">
+        <section class="biografia">
+            <div class="biografia__container">
+                <h1 class="biografia__titulo">Hola, mi nombre es Wilmer tengo 19 años y soy de perú, un apasionado del desarrollo web</h1>
+                <p class="biografia__info">Soy un desarrollador autodidacta formado en Platzi, FreeCodeCamp y entre otras plataformas de aprendizaje, actualmente estoy participando en el proyecto Oracle ONE de Alura Latam.</p>
+                <ul class="biografia__navegacion">
+                    <li class="biografia__lista"><a class="biografia__link" href="https://github.com/WilmerEspinal">Github <img class="biografia__icon" src="./icons/arrow-icon1.svg" alt=""></a></li>
+                    <li class="biografia__lista"><a class="biografia__link" href="https://www.linkedin.com/in/wilmer-dev/">Linkedin <img class="biografia__icon" src="./icons/arrow-icon1.svg" alt=""></a></li>
+                    <li class="biografia__lista"><a class="biografia__link" href="https://www.instagram.com/wilmer_ev_/">Instagram <img class="biografia__icon" src="./icons/arrow-icon1.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <figure class="container__user">
+                <img class="image__user" src="./images/foto-wilmer.png" alt="imagen de wilmer">
+            </figure>
+        </section>
+        <section id="sobremi" class="sobremi">
+            <div class="sobremi__container">
+                <h2 class="sobremi__titulo">Sobre mi</h2>
+                <p class="sobremi__info">
+                    Soy un estudiante autodidacta en desarrollo web y me apasiona aprender sobre las últimas tecnologías y tendencias en el mundo de la programación. Con habilidades en HTML, CSS y JavaScript, me encanta construir páginas web que ofrezcan una experiencia única a los usuarios. Como desarrollador web, me esfuerzo por crear soluciones digitales que cumplan con las necesidades y expectativas de las personas.
+                </p>
+            </div>
+
+        </section>
+        <section class="skills-hobbies">
+                <h2 id="skills" class="hablidades__titulo">Skills</h2>
+                <div class="hablidades__container">
+                    <div class="habilidad">
+                        <i class="fa-brands fa-html5 icon-habilidad"></i>
+                        <p class="habilidad__subtitle">Html5</p>
+                    </div>
+                    <div class="habilidad">
+                        <i class="fa-brands fa-css3-alt icon-habilidad"></i>
+                        <p class="habilidad__subtitle">Css</p>
+                    </div>
+                    <div class="habilidad">
+                        <i class="fa-brands fa-square-js icon-habilidad"></i>
+                        <p class="habilidad__subtitle">Javascript</p>
+                    </div>
+                    <div class="habilidad">
+                        <i class="fa-brands fa-git-alt icon-habilidad"></i>
+                        <p class="habilidad__subtitle">Git</p>
+                    </div>
+                </div>
+                <h2 id="Hobbies" class="hobbi__titulo">Hobbies</h2>
+                <div class="hobbi__container">
+                    <div class="hobbi">
+                        <i class="fa-sharp fa-solid fa-headphones hobbi-icon"></i>
+                        <p class="hobbi__subtitle">Oír música</p>
+                    </div>
+                    <div class="hobbi">
+                        <i class="fa-solid fa-tv hobbi-icon"></i>
+                        <p class="hobbi__subtitle">Ver series</p>
+                    </div>
+                    <div class="hobbi">
+                        <i class="fa-solid fa-gamepad hobbi-icon"></i>
+                        <p class="hobbi__subtitle">jugar video juegos</p>
+                    </div>
+                </div>
+        </section>
+        <section id="formacion" class="formacion-academica">
+            <h2 class="formacion__titulo">Formación académica</h2>
+            <div class="formacion__container">
+                <div class="formacion">
+                    <figure class="formacion__img__container">
+                        <img class="formacion__img-platzi" src="./images/platzi-logo.png" alt="">
+                    </figure>
+                    <h3 class="formaacion__nombre">Formación en Platzi</h3>
+                    <p class="formacion__year">2022-Platzi</p>
+                </div>
+                <div class="formacion">
+                    <figure class="formacion__img__container">
+                        <img class="formacion__img" src="./images/image-alura.svg" alt="">
+                    </figure>
+                    <h3 class="formaacion__nombre">Formación en Front-End</h3>
+                    <p class="formacion__year">2023-Alura</p>
+                </div>
+            </div>
+        </section>
+        <section id="proyectos" class="proyectos">
+            <h2 class="proyecto__titulo__home">Experiencia profesional</h2>
+            <div class="proyecto__container">
+                <figure class="proyecto__img__container">
+                    <img class="proyecto__img" src="./images/incriptador-desincriptador.png" alt="">
+                </figure>
+                <div class="proyecto__container__info">
+                    <h3 class="proyecto__nombre">Encriptador de texto</h3>
+                    <a class="proyecto__respositorio" href="https://github.com/WilmerEspinal/incriptador-desincriptador">Respositorio</a>
+                    <a class="proyecto__demo" href="https://wilmerespinal.github.io/incriptador-desincriptador/">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto__container--right">
+                <figure class="proyecto__img__container">
+                    <img class="proyecto__img" src="./images/todo-app.png" alt="">
+                </figure>
+                <div class="proyecto__container__info">
+                    <h3 class="proyecto__nombre">Encriptador de texto</h3>
+                    <a class="proyecto__respositorio" href="https://github.com/WilmerEspinal/todo-app">Respositorio</a>
+                    <a class="proyecto__demo" href="https://wilmerespinal.github.io/todo-app/">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto__container">
+                <figure class="proyecto__img__container">
+                    <img class="proyecto__img" src="./images/edi-homepage.png" alt="">
+                </figure>
+                <div class="proyecto__container__info">
+                    <h3 class="proyecto__nombre">Edi home page</h3>
+                    <a class="proyecto__respositorio" href="https://github.com/WilmerEspinal/edi-homepage">Respositorio</a>
+                    <a class="proyecto__demo" href="https://wilmerespinal.github.io/edi-homepage/">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto__container--right">
+                <figure class="proyecto__img__container">
+                    <img class="proyecto__img" src="./images/Interior-consultant.png" alt="">
+                </figure>
+                <div class="proyecto__container__info">
+                    <h3 class="proyecto__nombre">Interior-consultant</h3>
+                    <a class="proyecto__respositorio" href="https://github.com/WilmerEspinal/Interior-consultant">Respositorio</a>
+                    <a class="proyecto__demo" href="https://wilmerespinal.github.io/Interior-consultant/">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto__container">
+                <figure class="proyecto__img__container">
+                    <img class="proyecto__img" src="./images/my-team-page.png" alt="">
+                </figure>
+                <div class="proyecto__container__info">
+                    <h3 class="proyecto__nombre">My team page</h3>
+                    <a class="proyecto__respositorio" href="https://github.com/WilmerEspinal/my-team-page">Respositorio</a>
+                    <a class="proyecto__demo" href="https://wilmerespinal.github.io/my-team-page/">Ver demo</a>
+                </div>
+            </div>
+        </section>
+        <section class="contactos">
+            <div class="contacto__container">
+                <figure class="contacto__container__img">
+                    <img class="contacto__img" src="./images/contacto.png" alt="">
+                </figure>
+                <div class="contacto__container__formulario">
+                    <h2 class="contacto__titulo">Contacto</h2>
+                    <p class="contacto__info">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <form class="contacto__formulario" action="">
+                        <input class="contacto__text__name" type="text" placeholder="Nombre" title="debe tener almenos una letra mayuscula">
+                        <span class="error__nombre"></span>
+
+                        <input class="contacto__email" type="email" placeholder="E-mail">
+                        <span class="error__email"></span>
+
+                        <input class="contacto__asunto" type="text" placeholder="Asunto">
+                        <span class="error__asunto"></span>
+
+                        <textarea class="contacto__mensaje" cols="30" rows="7" placeholder="mensaje"></textarea>
+                        <span class="error__mensaje"></span>
+
+                        <button class="btn__enviar" type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="autor">Desarrollado por Wilmer Espinal Villanueva</p>
+        <p class="year">2023</p>
+    </footer>
+    <script src="validar.js"></script>
+</body>
+</html>
