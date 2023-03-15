@@ -73,13 +73,13 @@ main::before {
 }
 
 .biografia__titulo {
-    font-size: 4rem;
+    font-size: 5.5rem;
     color: #464646;
     margin-bottom: 15px;
 }
 
 .biografia__info {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #464646;
     margin-bottom: 15px;
 }
